@@ -47,4 +47,6 @@ Output 1: </br>
     print(sorted((C.intersection(F).difference(H)).union(F.intersection(H).difference(C)).union(H.intersection(C).difference(F))))
     print(sorted(C.union(F).union(H).symmetric_difference(A)))
 
-
+<p align="right">
+   <a href=“../1.2.%20Python%20for%20Data%20Science/1.2.1%20Numpy%20I.md“>Next Chapter</a>
+</p>
