@@ -10,9 +10,10 @@ In a school, there are total 20 students numbered from 1 to 20. You’re given t
 
 Format: </br>
 Input: </br>
-3 lists containing numbers (ranging from 1 to 20) representing students who play cricket, football and hockey respectively. </br>
+- 3 lists containing numbers (ranging from 1 to 20) representing students who play cricket, football and hockey respectively. </br>
+
 Output: </br>
-4 different lists containing the students according to the constraints provided in the questions.
+- 4 different lists containing the students according to the constraints provided in the questions.
 
 Note: Make sure you sort the final lists (in an ascending order) that you get before printing them; otherwise your answer might not match the test-cases. </br>
 
