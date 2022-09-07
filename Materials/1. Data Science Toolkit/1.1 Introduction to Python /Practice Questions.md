@@ -8,24 +8,24 @@ In a school, there are total 20 students numbered from 1 to 20. You’re given t
 - Students who play exactly two of the sports
 - Students who don’t play any of the three sports
 
-Format: \n
-Input: \n
-3 lists containing numbers (ranging from 1 to 20) representing students who play cricket, football and hockey respectively.
-Output:
+Format: </br>
+Input: </br>
+3 lists containing numbers (ranging from 1 to 20) representing students who play cricket, football and hockey respectively. </br>
+Output: </br>
 4 different lists containing the students according to the constraints provided in the questions.
 
-Note: Make sure you sort the final lists (in an ascending order) that you get before printing them; otherwise your answer might not match the test-cases.
+Note: Make sure you sort the final lists (in an ascending order) that you get before printing them; otherwise your answer might not match the test-cases. </br>
 
-Examples:
-Input 1:
-[2, 5, 9, 12, 13, 15, 16, 17, 18, 19]
-[2, 4, 5, 6, 7, 9, 13, 16]
-[1, 2, 5, 9, 10, 11, 12, 13, 15]
-Output 1:
-[2, 5, 9, 13]
-[16]
-[12, 15, 16]
-[3, 8, 14, 20]
+Examples: </br>
+Input 1: </br>
+[2, 5, 9, 12, 13, 15, 16, 17, 18, 19]  </br>
+[2, 4, 5, 6, 7, 9, 13, 16]</br>
+[1, 2, 5, 9, 10, 11, 12, 13, 15]</br>
+Output 1: </br>
+[2, 5, 9, 13] </br>
+[16] </br> 
+[12, 15, 16] </br>
+[3, 8, 14, 20] </br>
 
 
 #### Solution:
