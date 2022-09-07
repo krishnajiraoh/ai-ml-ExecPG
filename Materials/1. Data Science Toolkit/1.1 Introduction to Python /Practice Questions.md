@@ -8,8 +8,8 @@ In a school, there are total 20 students numbered from 1 to 20. You’re given t
 - Students who play exactly two of the sports
 - Students who don’t play any of the three sports
 
-Format:
-Input:
+Format: \n
+Input: \n
 3 lists containing numbers (ranging from 1 to 20) representing students who play cricket, football and hockey respectively.
 Output:
 4 different lists containing the students according to the constraints provided in the questions.
