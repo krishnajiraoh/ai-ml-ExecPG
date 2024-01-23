@@ -1,0 +1,112 @@
+2024-01-22T06:20:15.989+0000 [API/30] STDOUT Uploading app package for app with guid c54fb75b-f4da-44cc-8fd6-1c568933bad4
+2024-01-22T06:20:16.127+0000 [API/20] STDOUT Updated app with guid c54fb75b-f4da-44cc-8fd6-1c568933bad4 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"})
+2024-01-22T06:20:25.897+0000 [API/12] STDOUT Stopping app with guid c54fb75b-f4da-44cc-8fd6-1c568933bad4
+2024-01-22T06:20:25.941+0000 [CELL/0] STDOUT Cell c17de0b9-5449-4ef4-8b02-bb4e746716d1 stopping instance b8ebe242-7258-403c-6fb1-b8d0
+2024-01-22T06:20:26.092+0000 [API/22] STDOUT Creating build for app with guid c54fb75b-f4da-44cc-8fd6-1c568933bad4
+2024-01-22T06:20:26.586+0000 [STG/0] STDOUT Downloading zero_trust_sidecar_buildpack_1_0...
+2024-01-22T06:20:26.586+0000 [STG/0] STDOUT Downloading java_buildpack...
+2024-01-22T06:20:26.586+0000 [STG/0] STDOUT Downloading python_buildpack...
+2024-01-22T06:20:26.586+0000 [STG/0] STDOUT Downloading sap_java_buildpack...
+2024-01-22T06:20:26.597+0000 [STG/0] STDOUT Downloading staticfile_buildpack...
+2024-01-22T06:20:26.626+0000 [STG/0] STDOUT Downloaded staticfile_buildpack
+2024-01-22T06:20:26.626+0000 [STG/0] STDOUT Downloading sap_java_buildpack_1_86...
+2024-01-22T06:20:26.627+0000 [STG/0] STDOUT Downloaded python_buildpack
+2024-01-22T06:20:26.627+0000 [STG/0] STDOUT Downloading zero_trust_sidecar_buildpack...
+2024-01-22T06:20:26.627+0000 [STG/0] STDOUT Downloaded sap_java_buildpack
+2024-01-22T06:20:26.627+0000 [STG/0] STDOUT Downloading nodejs_buildpack...
+2024-01-22T06:20:26.627+0000 [STG/0] STDOUT Downloaded zero_trust_sidecar_buildpack_1_0
+2024-01-22T06:20:26.627+0000 [STG/0] STDOUT Downloading sap_java_buildpack_1_85...
+2024-01-22T06:20:26.629+0000 [STG/0] STDOUT Downloaded java_buildpack
+2024-01-22T06:20:26.629+0000 [STG/0] STDOUT Downloading sap_java_buildpack_1_82...
+2024-01-22T06:20:26.647+0000 [STG/0] STDOUT Downloaded zero_trust_sidecar_buildpack
+2024-01-22T06:20:26.647+0000 [STG/0] STDOUT Downloading go_buildpack...
+2024-01-22T06:20:26.664+0000 [STG/0] STDOUT Downloaded nodejs_buildpack
+2024-01-22T06:20:26.664+0000 [STG/0] STDOUT Downloading nginx_buildpack...
+2024-01-22T06:20:26.667+0000 [STG/0] STDOUT Downloaded sap_java_buildpack_1_85
+2024-01-22T06:20:26.667+0000 [STG/0] STDOUT Downloading php_buildpack...
+2024-01-22T06:20:26.668+0000 [STG/0] STDOUT Downloaded sap_java_buildpack_1_82
+2024-01-22T06:20:26.668+0000 [STG/0] STDOUT Downloading binary_buildpack...
+2024-01-22T06:20:26.671+0000 [STG/0] STDOUT Downloaded go_buildpack
+2024-01-22T06:20:26.675+0000 [STG/0] STDOUT Downloaded sap_java_buildpack_1_86
+2024-01-22T06:20:26.690+0000 [STG/0] STDOUT Downloaded nginx_buildpack
+2024-01-22T06:20:26.703+0000 [STG/0] STDOUT Downloaded binary_buildpack
+2024-01-22T06:20:26.705+0000 [STG/0] STDOUT Downloaded php_buildpack
+2024-01-22T06:20:26.705+0000 [STG/0] STDOUT Cell 94e8949f-0289-4f31-9321-767abf56a3d9 creating container for instance 0b8af031-301c-4e17-856e-fe7f8b1bcbdc
+2024-01-22T06:20:27.907+0000 [STG/0] STDOUT Security group rules were updated
+2024-01-22T06:20:27.983+0000 [STG/0] STDOUT Cell 94e8949f-0289-4f31-9321-767abf56a3d9 successfully created container for instance 0b8af031-301c-4e17-856e-fe7f8b1bcbdc
+2024-01-22T06:20:28.139+0000 [STG/0] STDOUT Downloading build artifacts cache...
+2024-01-22T06:20:28.139+0000 [STG/0] STDOUT Downloading app package...
+2024-01-22T06:20:28.183+0000 [STG/0] STDOUT Downloaded app package (30.7K)
+2024-01-22T06:20:28.713+0000 [STG/0] STDOUT Downloaded build artifacts cache (6.2M)
+2024-01-22T06:20:29.320+0000 [STG/0] STDOUT -----> Nodejs Buildpack version 1.8.20
+2024-01-22T06:20:29.320+0000 [STG/0] STDOUT [31;1m**WARNING**[0m buildpack version changed from 1.8.15 to 1.8.20
+2024-01-22T06:20:29.322+0000 [STG/0] STDOUT -----> Bootstrapping python
+2024-01-22T06:20:29.322+0000 [STG/0] STDOUT -----> Installing python 3.11.6
+2024-01-22T06:20:29.322+0000 [STG/0] STDOUT Copy [/tmp/buildpacks/01b3d81a27013ad39587f252bdabb4c8/dependencies/17ecec428c63fc9d4f8200b6005d8e61/python_3.11.6_linux_x64_cflinuxfs4_9aa19c6d.tgz]
+2024-01-22T06:20:32.782+0000 [STG/0] STDOUT -----> Installing binaries
+2024-01-22T06:20:32.783+0000 [STG/0] STDOUT engines.node (package.json): unspecified
+2024-01-22T06:20:32.783+0000 [STG/0] STDOUT engines.npm (package.json): unspecified (use default)
+2024-01-22T06:20:32.783+0000 [STG/0] STDOUT [31;1m**WARNING**[0m Node version not specified in package.json or .nvmrc. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html
+2024-01-22T06:20:32.783+0000 [STG/0] STDOUT -----> Installing node 18.18.2
+2024-01-22T06:20:32.783+0000 [STG/0] STDOUT Copy [/tmp/buildpacks/01b3d81a27013ad39587f252bdabb4c8/dependencies/cd6332b04d52b0d3e9d2e860de892ca6/node_18.18.2_linux_x64_cflinuxfs4_30564fcb.tgz]
+2024-01-22T06:20:34.898+0000 [STG/0] STDOUT Using default npm version: 9.8.1
+2024-01-22T06:20:34.898+0000 [STG/0] STDOUT -----> Installing yarn 1.22.19
+2024-01-22T06:20:34.898+0000 [STG/0] STDOUT Copy [/tmp/buildpacks/01b3d81a27013ad39587f252bdabb4c8/dependencies/0f06052381cbcef1593bd279ca3d9458/yarn_1.22.19_linux_noarch_any-stack_32d0e82e.tgz]
+2024-01-22T06:20:35.231+0000 [STG/0] STDOUT Installed yarn 1.22.19
+2024-01-22T06:20:35.231+0000 [STG/0] STDOUT -----> Creating runtime environment
+2024-01-22T06:20:35.232+0000 [STG/0] STDOUT [34;1mPRO TIP:[0m It is recommended to vendor the application's Node.js dependencies
+2024-01-22T06:20:35.232+0000 [STG/0] STDOUT Visit http://docs.cloudfoundry.org/buildpacks/node/index.html#vendoring
+2024-01-22T06:20:35.232+0000 [STG/0] STDOUT NODE_ENV=production
+2024-01-22T06:20:35.232+0000 [STG/0] STDOUT NODE_HOME=/tmp/contents2340044845/deps/0/node
+2024-01-22T06:20:35.232+0000 [STG/0] STDOUT NODE_MODULES_CACHE=true
+2024-01-22T06:20:35.232+0000 [STG/0] STDOUT NODE_VERBOSE=false
+2024-01-22T06:20:35.232+0000 [STG/0] STDOUT NPM_CONFIG_LOGLEVEL=error
+2024-01-22T06:20:35.232+0000 [STG/0] STDOUT NPM_CONFIG_PRODUCTION=true
+2024-01-22T06:20:35.232+0000 [STG/0] STDOUT -----> Building dependencies
+2024-01-22T06:20:35.232+0000 [STG/0] STDOUT Installing node modules (package.json)
+2024-01-22T06:20:43.512+0000 [STG/0] STDOUT added 263 packages, and audited 264 packages in 8s
+2024-01-22T06:20:43.512+0000 [STG/0] STDOUT 17 packages are looking for funding
+2024-01-22T06:20:43.513+0000 [STG/0] STDOUT run `npm fund` for details
+2024-01-22T06:20:43.514+0000 [STG/0] STDOUT found 0 vulnerabilities
+2024-01-22T06:20:43.514+0000 [STG/0] STDOUT npm notice
+2024-01-22T06:20:43.515+0000 [STG/0] STDOUT npm notice New major version of npm available! 9.8.1 -> 10.3.0
+2024-01-22T06:20:43.515+0000 [STG/0] STDOUT npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.3.0>
+2024-01-22T06:20:43.515+0000 [STG/0] STDOUT npm notice Run `npm install -g npm@10.3.0` to update!
+2024-01-22T06:20:43.515+0000 [STG/0] STDOUT npm notice
+2024-01-22T06:20:44.137+0000 [STG/0] STDOUT [31;1m**WARNING**[0m Unmet dependencies don't fail npm install but may cause runtime issues
+2024-01-22T06:20:44.137+0000 [STG/0] STDOUT See: https://github.com/npm/npm/issues/7494
+2024-01-22T06:20:44.166+0000 [STG/0] STDOUT Contrast Security no credentials found. Will not write environment files.
+2024-01-22T06:20:44.166+0000 [STG/0] STDOUT inside Sealights hook
+2024-01-22T06:20:44.166+0000 [STG/0] STDOUT service is not configured to run with Sealights
+2024-01-22T06:20:52.350+0000 [STG/0] STDOUT Exit status 0
+2024-01-22T06:20:52.350+0000 [STG/0] STDOUT Uploading droplet, build artifacts cache...
+2024-01-22T06:20:52.351+0000 [STG/0] STDOUT Uploading build artifacts cache...
+2024-01-22T06:20:52.351+0000 [STG/0] STDOUT Uploading droplet...
+2024-01-22T06:20:52.471+0000 [STG/0] STDOUT Uploaded build artifacts cache (9.3M)
+2024-01-22T06:20:52.852+0000 [API/22] STDOUT Creating droplet for app with guid c54fb75b-f4da-44cc-8fd6-1c568933bad4
+2024-01-22T06:20:55.953+0000 [STG/0] STDOUT Uploaded droplet (50.8M)
+2024-01-22T06:20:55.970+0000 [STG/0] STDOUT Uploading complete
+2024-01-22T06:20:56.217+0000 [STG/0] STDOUT Cell 94e8949f-0289-4f31-9321-767abf56a3d9 stopping instance 0b8af031-301c-4e17-856e-fe7f8b1bcbdc
+2024-01-22T06:20:56.217+0000 [STG/0] STDOUT Cell 94e8949f-0289-4f31-9321-767abf56a3d9 destroying container for instance 0b8af031-301c-4e17-856e-fe7f8b1bcbdc
+2024-01-22T06:20:58.784+0000 [STG/0] STDOUT Cell 94e8949f-0289-4f31-9321-767abf56a3d9 successfully destroyed container for instance 0b8af031-301c-4e17-856e-fe7f8b1bcbdc
+2024-01-22T06:21:05.801+0000 [API/10] STDOUT Updated app with guid c54fb75b-f4da-44cc-8fd6-1c568933bad4 ({:droplet_guid=>"3ace6852-629f-49bc-ab84-fd3fa0e1797d"})
+2024-01-22T06:21:06.034+0000 [API/15] STDOUT Creating revision for app with guid c54fb75b-f4da-44cc-8fd6-1c568933bad4
+2024-01-22T06:21:06.080+0000 [API/15] STDOUT Starting app with guid c54fb75b-f4da-44cc-8fd6-1c568933bad4
+2024-01-22T06:21:06.213+0000 [CELL/0] STDOUT Cell c17de0b9-5449-4ef4-8b02-bb4e746716d1 creating container for instance d4fe45f8-bfc8-45d8-5656-c742
+2024-01-22T06:21:07.410+0000 [CELL/0] STDOUT Security group rules were updated
+2024-01-22T06:21:07.476+0000 [CELL/0] STDOUT Cell c17de0b9-5449-4ef4-8b02-bb4e746716d1 successfully created container for instance d4fe45f8-bfc8-45d8-5656-c742
+2024-01-22T06:21:07.820+0000 [CELL/0] STDOUT Downloading droplet...
+2024-01-22T06:21:11.119+0000 [CELL/0] STDOUT Downloaded droplet (50.8M)
+2024-01-22T06:21:11.119+0000 [CELL/0] STDOUT Starting health monitoring of container
+2024-01-22T06:21:11.231+0000 [APP/PROC/WEB/0] STDOUT Invoking pre-start scripts.
+2024-01-22T06:21:11.441+0000 [APP/PROC/WEB/0] STDOUT Invoking start command.
+2024-01-22T06:21:11.887+0000 [APP/PROC/WEB/0] STDOUT > start
+2024-01-22T06:21:11.887+0000 [APP/PROC/WEB/0] STDOUT > node node_modules/@sap/approuter/approuter.js
+2024-01-22T06:21:12.171+0000 [APP/PROC/WEB/0] STDOUT {"written_at":"2024-01-22T06:21:12.169Z","written_ts":1705904472169000000,"csn_component":"-","correlation_id":"-","type":"log","logger":"nodejs-logger","layer":"/LoggingLibrary","level":"warning","container_id":"10.0.73.10","component_type":"application","component_id":"c54fb75b-f4da-44cc-8fd6-1c568933bad4","component_name":"kg4hanaui-app","component_instance":-1,"source_instance":-1,"organization_id":"d7b1a28e-1ae4-46a7-9637-63f4f71dd294","organization_name":"ml-apps-arch_kg4hana-eu12-4k6jo1ic","space_id":"a23d6abf-772f-4cec-bdc7-43c28571ef8d","space_name":"kg4hana-dev-space","context_id":"","msg":"Dynamic log level switching not available"}
+2024-01-22T06:21:12.593+0000 [APP/PROC/WEB/0] STDOUT {"written_at":"2024-01-22T06:21:12.593Z","written_ts":1705904472593000000,"csn_component":"-","correlation_id":"lrojh79t","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.0.73.10","component_type":"application","component_id":"c54fb75b-f4da-44cc-8fd6-1c568933bad4","component_name":"kg4hanaui-app","component_instance":-1,"source_instance":-1,"organization_id":"d7b1a28e-1ae4-46a7-9637-63f4f71dd294","organization_name":"ml-apps-arch_kg4hana-eu12-4k6jo1ic","space_id":"a23d6abf-772f-4cec-bdc7-43c28571ef8d","space_name":"kg4hana-dev-space","context_id":"lrojh79t","msg":"Application router version 16.0.2"}
+2024-01-22T06:21:12.598+0000 [APP/PROC/WEB/0] STDOUT {"written_at":"2024-01-22T06:21:12.597Z","written_ts":1705904472597000000,"csn_component":"-","correlation_id":"lrojh79x","type":"log","logger":"nodejs-logger","layer":"/Configuration","level":"info","container_id":"10.0.73.10","component_type":"application","component_id":"c54fb75b-f4da-44cc-8fd6-1c568933bad4","component_name":"kg4hanaui-app","component_instance":-1,"source_instance":-1,"organization_id":"d7b1a28e-1ae4-46a7-9637-63f4f71dd294","organization_name":"ml-apps-arch_kg4hana-eu12-4k6jo1ic","space_id":"a23d6abf-772f-4cec-bdc7-43c28571ef8d","space_name":"kg4hana-dev-space","context_id":"lrojh79x","msg":"No COOKIES environment variable"}
+2024-01-22T06:21:12.627+0000 [APP/PROC/WEB/0] STDOUT {"written_at":"2024-01-22T06:21:12.627Z","written_ts":1705904472627000000,"csn_component":"-","correlation_id":"lrojh79t","type":"log","logger":"nodejs-logger","layer":"/approuter","level":"info","container_id":"10.0.73.10","component_type":"application","component_id":"c54fb75b-f4da-44cc-8fd6-1c568933bad4","component_name":"kg4hanaui-app","component_instance":-1,"source_instance":-1,"organization_id":"d7b1a28e-1ae4-46a7-9637-63f4f71dd294","organization_name":"ml-apps-arch_kg4hana-eu12-4k6jo1ic","space_id":"a23d6abf-772f-4cec-bdc7-43c28571ef8d","space_name":"kg4hana-dev-space","context_id":"lrojh79t","msg":"Application router is listening on port: 8080"}
+2024-01-22T06:21:14.274+0000 [CELL/0] STDOUT Container became healthy
+2024-01-22T06:21:32.341+0000 [CELL/0] STDOUT Cell c17de0b9-5449-4ef4-8b02-bb4e746716d1 destroying container for instance b8ebe242-7258-403c-6fb1-b8d0
+2024-01-22T06:21:32.612+0000 [PROXY/0] STDOUT Exit status 137
+2024-01-22T06:21:35.007+0000 [CELL/0] STDOUT Cell c17de0b9-5449-4ef4-8b02-bb4e746716d1 successfully destroyed container for instance b8ebe242-7258-403c-6fb1-b8d0

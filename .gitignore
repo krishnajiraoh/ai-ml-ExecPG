@@ -129,3 +129,9 @@ dmypy.json
 .pyre/
 .DS_Store
 backup/
+Materials/7. MLOps/AssignmentActual/Assignment/Submission/Lead_scoring_data_pipeline/lead_scoring_data_cleaning.db
+Materials/7. MLOps/AssignmentActual/Assignment/Submission/notebooks/lead_scoring_data_cleaning.db
+Materials/7. MLOps/assignment/data/new/transactions_logs_new.csv
+Materials/7. MLOps/assignment/data/new/members_profile_new.csv
+Materials/7. MLOps/assignment/data/new/user_logs_new.csv
+*.zip

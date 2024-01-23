@@ -1,0 +1,1 @@
+Percentage of Zeroes:41.24261395021844, Percentage of Ones: 58.75738604978156
