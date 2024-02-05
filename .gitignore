@@ -135,3 +135,5 @@ Materials/7. MLOps/assignment/data/new/transactions_logs_new.csv
 Materials/7. MLOps/assignment/data/new/members_profile_new.csv
 Materials/7. MLOps/assignment/data/new/user_logs_new.csv
 *.zip
+Materials/Capstone/EyeForBlind/checkpoint/*
+Materials/Capstone/Images/*
