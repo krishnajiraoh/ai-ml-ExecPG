@@ -31,3 +31,28 @@ Q: How to make the above value negative/profitable?
     - Increase the penalty to 25
     - Decrease the prize money to 90
 A: increase the penalty to 25
+
+
+    - Q: 
+    Generalised Probability
+    What is the probability that you would get 4 red balls after 4 trials (One trial = taking out a ball, noting its colour, and putting it back in the bag), if the probability of getting a red ball in one trial is equal to p?
+    - A: p4
+    
+    
+Binomial Distribution:
+Q: A student attempts a test with 10 multiple choice questions, where each question has 4 possible options. She does not know the correct answer to any of the questions and just randomly selects one of the 4 options for each of them. The probability that she would still get 3 questions correct is:
+
+A: 10C3(1/4)3(3/4)7
+
+
+Q:
+Cumulative Probability
+Let’s define X as the number of wickets Ishant Sharma would take in the next T20 match he plays. Also, the following is an incomplete table for cumulative probability based on previous experience:
+x(Number of wickets taken by Ishant Sharma in a T20 Match)	  F(x)  
+0	0.35
+1	0.55
+2	0.75
+ 
+What is the probability that he would take more than 2 wickets in the next  T20 match he plays?
+
+A: 0.25
