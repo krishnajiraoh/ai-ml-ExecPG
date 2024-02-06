@@ -56,3 +56,19 @@ x(Number of wickets taken by Ishant Sharma in a T20 Match)	  F(x)
 What is the probability that he would take more than 2 wickets in the next  T20 match he plays?
 
 A: 0.25
+
+
+Q: Normal Distribution :
+
+Mean = 35, SD = 5
+Find Probability of
+
+    1. P(25 < X < 45)
+    A: 95%
+    2. P(25 < X < 50)
+    A: 
+    
+
+    
+    
+    
